@@ -74,7 +74,7 @@ const determineWinner = (userChoice, computerChoice) => {
 //console.log(determineWinner('rock', 'scissors'));
 
 const playGame = () => {
-  const userChoice = getUserChoice('spock'); // Your choice
+  const userChoice = getUserChoice('spock'); // Your choice 'paper' 'rock' 'scissors' 'spock'
   const computerChoice = getComputerChoice();
   console.log(`You threw: ${userChoice}.`);
   console.log(`The computer threw: ${computerChoice}.`);
